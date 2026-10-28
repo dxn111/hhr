@@ -28,6 +28,7 @@ This is the documentation and installation repository. The HHR application is di
 
 - **Work in your terminal:** start HHR from a project and work in a persistent coding session.
 - **Use local project tools:** inspect and search files, make edits, and run shell commands.
+- **Get faster feedback:** the selected model predicts text one token at a time, and HHR streams the response as it arrives so you can start reading before generation finishes.
 - **Review the workflow:** choose how prompts, file changes, and commands are handled; full access is available for the current run when you choose it.
 - **Keep useful context:** reopen saved sessions, use skills, or request a findings-first review with `/review`.
 - **Choose a model:** use Kilo Code's default free model or configure a model that requires an API key.
