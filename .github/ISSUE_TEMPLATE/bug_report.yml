@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible problem with HHR.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share only information you are comfortable making public. Remove API keys, private code, and personal data from logs.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: A clear summary of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the command or interaction that triggered the issue.
+      placeholder: |
+        1. Start HHR in …
+        2. Enter …
+        3. Observe …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: HHR version
+      description: Run `hhr --version` or `hhr version`.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, terminal, Node.js version, and install method.
+      placeholder: Linux, GNOME Terminal, Node 22, npm
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs or screenshot
+      description: Redact secrets and private project content before sharing.

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">HHR — a coding agent for your terminal</title>
+  <desc id="desc">A dark blue HHR banner with a terminal window showing the inspect, edit, and verify workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="20" x2="1110" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="790" y1="40" x2="1120" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#C2A0FF" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="90" y1="120" x2="560" y2="335" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#C2A0FF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8FA7C7" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="shadow" x="596" y="52" width="570" height="340" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+  <circle cx="1050" cy="92" r="220" fill="url(#glow)"/>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <rect x="76" y="76" width="8" height="30" rx="4" fill="url(#accent)"/>
+    <text x="101" y="98" fill="#9FB4D0" font-size="16" font-weight="700" letter-spacing="3.2">HYPER-HORIZON REASONING</text>
+    <text x="72" y="218" fill="#F2F6FC" font-size="104" font-weight="800" letter-spacing="-6">HHR</text>
+    <text x="80" y="266" fill="#D5DEEA" font-size="25" font-weight="550">A coding agent for your terminal.</text>
+    <text x="80" y="310" fill="#91A0B5" font-size="17">Inspect a project. Make focused changes. Review the result.</text>
+    <g transform="translate(80 348)">
+      <circle cx="7" cy="7" r="6" fill="#75D49A"/>
+      <text x="25" y="12" fill="#9FB4D0" font-size="14" font-weight="600" letter-spacing="1.4">LOCAL FILES</text>
+      <circle cx="187" cy="7" r="6" fill="#58A6FF"/>
+      <text x="205" y="12" fill="#9FB4D0" font-size="14" font-weight="600" letter-spacing="1.4">TERMINAL WORKFLOW</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="650" y="70" width="490" height="292" rx="18" fill="#070B13" stroke="#314158" stroke-width="1.5"/>
+    <path d="M650 128H1140" stroke="#26354A"/>
+    <circle cx="680" cy="99" r="6" fill="#FF6B6B"/>
+    <circle cx="702" cy="99" r="6" fill="#F2C66D"/>
+    <circle cx="724" cy="99" r="6" fill="#75D49A"/>
+    <text x="895" y="104" text-anchor="middle" fill="#78869B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">HHR · TERMINAL</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">
+      <text x="684" y="174" fill="#58A6FF">$</text>
+      <text x="708" y="174" fill="#E6EDF3">hhr</text>
+      <text x="684" y="214" fill="#75D49A">›</text>
+      <text x="708" y="214" fill="#C9D3E0">Inspect this project and suggest a fix</text>
+      <text x="684" y="260" fill="#C2A0FF">◆ HHR</text>
+      <text x="708" y="292" fill="#AAB8CB">Inspect</text>
+      <text x="796" y="292" fill="#50627B">→</text>
+      <text x="824" y="292" fill="#AAB8CB">Edit</text>
+      <text x="886" y="292" fill="#50627B">→</text>
+      <text x="914" y="292" fill="#AAB8CB">Verify</text>
+      <rect x="684" y="324" width="9" height="18" rx="2" fill="#58A6FF"/>
+      <rect x="701" y="324" width="9" height="18" rx="2" fill="#58A6FF" opacity=".38"/>
+      <rect x="718" y="324" width="9" height="18" rx="2" fill="#58A6FF" opacity=".18"/>
+    </g>
+  </g>
+</svg>

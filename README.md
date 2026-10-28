@@ -1,8 +1,36 @@
-# HHR
+<div align="center">
+  <img src="assets/hhr-hero.svg" alt="HHR — a coding agent for your terminal" width="100%" />
+  <p><strong>Inspect a project. Make focused changes. Review the result.</strong></p>
+  <p>
+    <a href="#quick-start">Quick start</a> ·
+    <a href="#features">Features</a> ·
+    <a href="#install-options">Install options</a> ·
+    <a href="https://hhr-ai.vercel.app">Website</a>
+  </p>
+  <p>
+    <a href="https://www.npmjs.com/package/hhr-ai"><img alt="npm version" src="https://img.shields.io/npm/v/hhr-ai?label=npm&color=7c6cff" /></a>
+    <img alt="Node.js 18 or newer" src="https://img.shields.io/badge/node-%3E%3D18-43853d?logo=node.js&logoColor=white" />
+    <img alt="Linux and macOS" src="https://img.shields.io/badge/platform-Linux%20%7C%20macOS-5265d8" />
+  </p>
+</div>
 
 **HHR (Hyper-Horizon Reasoning)** is a coding assistant that runs in your terminal. Start it in a project directory to ask questions about the code, inspect files, and work through coding tasks.
 
 This is the documentation and installation repository. The HHR application is distributed separately through the npm package and the official installer.
+
+## See HHR in action
+
+![HHR responding to a coding question with an inspect, plan, edit, and verify workflow](assets/hhr-terminal.png)
+
+<p align="center"><sub>Live HHR terminal capture · example prompts with no project files</sub></p>
+
+## Features
+
+- **Work in your terminal:** start HHR from a project and work in a persistent coding session.
+- **Use local project tools:** inspect and search files, make edits, and run shell commands.
+- **Review the workflow:** choose how prompts, file changes, and commands are handled; full access is available for the current run when you choose it.
+- **Keep useful context:** reopen saved sessions, use skills, or request a findings-first review with `/review`.
+- **Choose a model:** use Kilo Code's default free model or configure a model that requires an API key.
 
 ## Quick start
 
@@ -171,4 +199,4 @@ Settings and saved sessions are stored under `~/.hhr`. Remove that directory sep
 
 ## Contributing
 
-Documentation fixes and clarifications are welcome. This repository is intentionally documentation-only; keep application source changes in the HHR application project. Before changing an install instruction, check it against the current installer or npm package. Never include API keys, saved sessions, or private project files in an issue or pull request.
+Documentation fixes and clarifications are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the guide. This repository is intentionally documentation-only; keep application source changes in the HHR application project. Before changing an install instruction, check it against the current installer or npm package. Never include API keys, saved sessions, or private project files in an issue or pull request.
