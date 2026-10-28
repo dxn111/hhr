@@ -13,6 +13,15 @@ This repository contains installation and usage instructions. HHR's application 
 
 ## Install
 
+### With npm
+
+```sh
+npm install -g hhr-ai@latest
+hhr
+```
+
+### With the installer
+
 Review the installer before running it:
 
 ```sh
